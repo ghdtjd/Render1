@@ -11,8 +11,8 @@ public class TestController {
         return "server is running";
     }
 
-    @GetMapping("/hi")
-    public String hi() {
+    @GetMapping("/hello")
+    public String hello() {
         return "hello world";
     }
 }
